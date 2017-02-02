@@ -1,15 +1,22 @@
 body {
     background-color: #02010a;
 }
+
+
 /*ESTILOS DE HEADER EN GENERAL*/
+
 header {
     font-family: 'Dancing Script', cursive;
     background-color: #5b7989;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
+    animation: headerAnim 1s;
 }
+
+
 /*ESTILOS ID CABECERA*/
+
 #cabecera {
     display: -webkit-flex;
     display: flex;
@@ -22,11 +29,12 @@ header {
     text-shadow: 1px 2px 3px #02010a;
 }
 
-/*ESTILOS ANIMACIONES MENU*/
+
+/*ESTILOS ANIMACIONES EN MENU*/
 
 .menu a:link, a:visited {
     padding: 0 1px;
-    text-decoration:none;
+    text-decoration: none;
     color: white;
 }
 
@@ -34,4 +42,28 @@ header {
     background: hsla(188, 87%, 50%, 0.64);
     text-shadow: none !important;
     border-radius: 5px;
+}
+
+
+/*FIN DESARROLLO CABECERA*/
+
+
+/*INICIO DEL CUERPO DE PAGINA WEB*/
+
+#cuerpo {
+    background-color: #d5c75f;
+}
+
+#cuerpo .banner .portada {
+    width: 700px;
+    height: 300px;
+}
+
+.banner {
+    background-color: #82c3a6;
+}
+
+.banner img {
+    margin: auto;
+    display: block;
 }
