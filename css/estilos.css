@@ -124,7 +124,7 @@ footer {
 }
 
 .imagen2 img:hover {
-    transform: translate(20px, 10px);
+    transform: translate(20px, -5px);
     -webkit-box-shadow: 2px 2px #82c3a6;
     transition: 1s;
 }
