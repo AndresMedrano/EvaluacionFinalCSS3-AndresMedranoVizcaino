@@ -15,22 +15,21 @@
         padding: 5px;
         font-size: 20px;
     }
-
     #cuerpo .imagen1 {
         width: 100%;
     }
-
     #cuerpo .imagen2 {
         width: 100%;
     }
+    #footerunico .derechos .columna {
+        width: 100%;
     }
+}
 
-    #cuerpo .banner img {
-        padding: 2vh;
-        width: 90%;
-    }
-
-
+#cuerpo .banner img {
+    padding: 2vh;
+    width: 90%;
+}
 
 @media (min-width: 900px) {
     #cabecera {
@@ -67,6 +66,14 @@
     }
     #cuerpo .imagen2 {
         width: 50%;
+    }
+    #footerunico .derechos .columna {
+        width: 25%;
+    }
+    footer{
+      width: 900px;
+      margin: 0 auto;
+      text-align: center;
     }
 }
 

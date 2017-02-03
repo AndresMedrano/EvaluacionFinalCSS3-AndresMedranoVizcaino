@@ -1,24 +1,31 @@
 body {
     background-color: #02010a;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-decoration: none;
 }
 
 
 /*ESTILOS DE HEADER EN GENERAL*/
 
 header {
-    font-family: 'Dancing Script', cursive;
     background-color: #5b7989;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    color: white;
     animation: headerAnim 1s;
 }
 
-#cuerpo a{
-  font-family: 'Dancing Script', cursive;
-  font-size: 25px;
-  color: white;
-  text-decoration: none;
+
+/*ESTILOS TEXTOS PAGINA*/
+
+#cuerpo a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 18px;
 }
 
 
@@ -58,10 +65,10 @@ header {
 /*INICIO DEL CUERPO DE PAGINA WEB*/
 
 #cuerpo {
-  display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     background-color: #d5c75f;
 }
 
@@ -73,47 +80,82 @@ header {
     margin: auto;
     display: block;
 }
+
+
 /*ESTILOS Y ANIMACION IMAGEN PAISAJE*/
+
 .imagen1 {
-  background-color: #d5c75f;
-	padding-top: 3em;
-	padding-bottom: 1em;
-	text-align: center;
-
+    background-color: #d5c75f;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
 }
 
- .imagen1 img{
-	width: 70%;
-	align-items: center;
-	border: black 1px solid;
-	-webkit-box-shadow: 2px 2px #02010a;
-	transition: 1s;
+.imagen1 img {
+    width: 70%;
+    align-items: center;
+    border: black 1px solid;
+    -webkit-box-shadow: 2px 2px #02010a;
+    transition: 1s;
 }
 
- .imagen1 img:hover{
-	transform:  rotate(10deg);
-	-webkit-box-shadow: 2px 2px #82c3a6;
-	transition: 1s;
+.imagen1 img:hover {
+    transform: rotate(10deg);
+    -webkit-box-shadow: 2px 2px #82c3a6;
+    transition: 1s;
 }
+
+
 /*ESTILOS Y ANIMACION IMAGEN RETRATO*/
+
 .imagen2 {
-  background-color: #d5c75f;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
-
+    background-color: #d5c75f;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
 }
 
-.imagen2 img{
-	width: 60%;
-	align-items: center;
-	border: black 1px solid;
-	-webkit-box-shadow: 2px 2px #02010a;
-	transition: 1s;
+.imagen2 img {
+    width: 60%;
+    align-items: center;
+    border: black 1px solid;
+    -webkit-box-shadow: 2px 2px #02010a;
+    transition: 1s;
 }
 
-.imagen2 img:hover{
-  transform:  translate(20px,  10px);
-	-webkit-box-shadow: 2px 2px #82c3a6;
-	transition: 1s;
+.imagen2 img:hover {
+    transform: translate(20px, 10px);
+    -webkit-box-shadow: 2px 2px #82c3a6;
+    transition: 1s;
+}
+
+
+/*FIN DESARROLLO CUERPO*/
+
+
+/*INICIO DESARROLLO FOOTER*/
+
+#footerunico .derechos {
+    background-color: #C6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    color: #5b7989;
+}
+
+#footerunico h2 {
+    color: black;
+}
+
+#footerunico a{
+  color:#5b7989;
+  text-decoration: none;
+}
+
+#footerunico p{
+  text-align: center;
 }
