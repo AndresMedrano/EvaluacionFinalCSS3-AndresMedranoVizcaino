@@ -1,0 +1,47 @@
+.galeria {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+/*PARA SITIO RESPONSIVE*/
+@media (max-width:900px) {
+    .imgaleria {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .imgaleria {
+        width: 33.33%;
+    }
+}
+
+/* EFECTOS PARA PAISAJES*/
+.imgblur, .imggray, .imgsepia, .imgorigin{
+  padding-top: 2em;
+  padding-bottom: 2em;
+	width: 80%;
+}
+
+#imgblur{
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+
+#imggray{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#imgsepia{
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+
+#imgorigin{
+	-webkit-filter: brightness(100%);
+	filter: brightness(100%);
+}
+
+/*EFECTOS PARA RETRATOS*/
